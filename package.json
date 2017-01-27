@@ -1,6 +1,6 @@
 {
   "name": "sarathi-nodiscovery-strategy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Implementation of Sarathi's discovery API with direct links for when no discovery server is used. Edit",
   "main": "./lib",
   "scripts": {
