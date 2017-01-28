@@ -1,7 +1,6 @@
 var gulp = require("gulp");
 var mocha = require("gulp-mocha");
 var istanbul = require("gulp-istanbul");
-var coveralls = require("gulp-coveralls");
 
 gulp.task("pre-test", function () {
 	return gulp.src(["lib/**/*.js"])
@@ -20,12 +19,6 @@ gulp.task("test", ["pre-test"], function () {
 		.once("end", function () {
 			process.exit();
 		});
-});
-
-gulp.task("coveralls", function () {
-	return gulp.src("test/coverage/**/lcov.info")
-		.pipe(coveralls());
-
 });
 
 gulp.task("default", ["test"]);
