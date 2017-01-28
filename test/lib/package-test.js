@@ -41,7 +41,7 @@ describe("Strategy", function () {
 
 	it("should be an instance of consul-discovery-strategy", function () {
 		nodiscoveryStrategy.should.be.an.instanceOf(SarathiDiscoveryStrategy);
-	})
+	});
 
 	it("#discoverInstances should start discovery", function(callback) {
 		nodiscoveryStrategy.getDiscoveredInstances().should.be.empty;

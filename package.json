@@ -4,7 +4,7 @@
   "description": "Implementation of Sarathi's discovery API with direct links for when no discovery server is used. Edit",
   "main": "./lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
