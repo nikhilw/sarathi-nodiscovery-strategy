@@ -4,7 +4,8 @@
   "description": "Implementation of Sarathi's discovery API with direct links for when no discovery server is used. Edit",
   "main": "./lib",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "coverage": "gulp coveralls"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,10 @@
   "homepage": "https://github.com/nikhilw/sarathi-nodiscovery-strategy#readme",
   "devDependencies": {
     "chai": "~3.5.0",
+    "coveralls": "~2.11.15",
     "gulp": "~3.9.1",
+    "gulp-coveralls": "~0.1.4",
+    "gulp-istanbul": "~1.1.1",
     "gulp-mocha": "~3.0.1",
     "mocha": "~3.2.0"
   },

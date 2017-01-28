@@ -1,7 +1,7 @@
 # sarathi-nodiscovery-strategy
 Implementation of Sarathi's discovery API with direct links for when no discovery server is used.
 
-[![Coverage Status](https://coveralls.io/repos/github/nikhilw/sarathi-nodiscovery-strategy/badge.svg?branch=master)](https://coveralls.io/github/nikhilw/sarathi-nodiscovery-strategy?branch=master)
+[![Build Status](https://travis-ci.org/nikhilw/sarathi-nodiscovery-strategy.svg?branch=master)](https://travis-ci.org/nikhilw/sarathi-nodiscovery-strategy) [![Coverage Status](https://coveralls.io/repos/github/nikhilw/sarathi-nodiscovery-strategy/badge.svg?branch=master)](https://coveralls.io/github/nikhilw/sarathi-nodiscovery-strategy?branch=master)
 
 ## Installation
 ```npm
