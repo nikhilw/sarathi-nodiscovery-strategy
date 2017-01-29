@@ -8,7 +8,7 @@ Implementation of Sarathi's discovery API with direct links for when no discover
 npm install --save sarathi-nodiscovery-strategy
 ```
 ## Features
-Lets you use [Sarathi](https://www.npmjs.com/package/sarathi) as declarative rest client, even when you are not using any discovery server.
+Enables using [Sarathi](https://www.npmjs.com/package/sarathi) as declarative rest client, even when no discovery server is being used. Allows for setting service instances directly and make use of load balancing capabilities of Sarathi.
 
 ## Usage
 ```javascript
